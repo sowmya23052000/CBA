@@ -1,0 +1,12 @@
+numpy
+pandas
+seaborn
+datetime
+matplotlib
+date
+sklearn
+scipy
+stats
+stremlit
+pickel
+joblib
