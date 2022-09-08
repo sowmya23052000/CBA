@@ -6,6 +6,7 @@
 
 # importing necessary libraries
 import joblib
+import pandas as pd
 import streamlit as st
 
 
@@ -14,7 +15,7 @@ import streamlit as st
 KMeansCls = joblib.load('cluster.pkl','rb')
 
 #page configuration
-st.set_page_config(page_title = 'Customer Behaviour Analysis Web App', layout='centered')
+st.set_page_config(page_title = 'Customer Behaviour Analysis', layout='centered')
 st.title('Customer Behaviour Analysis')
 
 # customer segmentation function
