@@ -12,7 +12,7 @@ import streamlit as st
 
 
 #load the model
-KMeansCls = joblib.load('cluster.pkl','rb')
+KMeansCls = joblib.load('clusterg.pkl')
 
 #page configuration
 st.set_page_config(page_title = 'Customer Behaviour Analysis', layout='centered')
