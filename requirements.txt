@@ -3,10 +3,9 @@ pandas
 seaborn
 datetime
 matplotlib
-date
 sklearn
 scipy
 stats
 streamlit
-pickel
+date
 joblib
